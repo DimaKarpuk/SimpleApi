@@ -4,7 +4,6 @@ import TestData.GetRandomBook;
 import TestData.RandomUtils;
 import apiSteps.ApiSteps;
 import apiSteps.BookApiSteps;
-import lombok.Data;
 import model.bookModel.GetBookModel;
 import model.userModel.GetUserTokenModel;
 import model.userModel.ResponseRegistrationModel;

@@ -45,6 +45,5 @@ public class UserTests extends TestBase {
                .extract().as(LoginResponseModel.class);
       assertThat(loginResponseModel.getUsername()).isEqualTo(user);
       assertThat(loginResponseModel.getUserId()).isNotEmpty();
-
     }
 }
